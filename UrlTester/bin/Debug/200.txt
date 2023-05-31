@@ -1,0 +1,8 @@
+http://ssaja.miu.ac.ir/login.php -- سيستم دانش پژوه
+https://stbastak.ir/admin -- صندوق تعاون شهرستان بستک
+https://stbastak.ir/cpanel -- cPanel Redirect
+https://bsecurity.ir/vpn -- 
+https://bsecurity.ir/cpanel -- cPanel Login
+http://www.vib.ir/login.php -- شاخص قیمت خوراک ایران
+http://www.vib.ir/cpanel -- cPanel Login
+http://www.sarar.ir/login.php -- Sarar Login

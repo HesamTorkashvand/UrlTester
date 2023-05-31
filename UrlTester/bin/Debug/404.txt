@@ -1,0 +1,27 @@
+http://ssaja.miu.ac.ir/admin -- 404 Not Found
+http://ssaja.miu.ac.ir/backup -- 404 Not Found
+http://ssaja.miu.ac.ir/backup.sql -- 404 Not Found
+http://ssaja.miu.ac.ir/vpn -- 404 Not Found
+http://ssaja.miu.ac.ir/cpanel -- 404 Not Found
+http://ssaja.miu.ac.ir/wp-login -- 404 Not Found
+https://stbastak.ir/login.php -- 404 Not Found
+https://stbastak.ir/backup -- 404 Not Found
+https://stbastak.ir/backup.sql -- 404 Not Found
+https://stbastak.ir/vpn -- 404 Not Found
+https://stbastak.ir/wp-login -- 404 Not Found
+https://bsecurity.ir/login.php -- 
+https://bsecurity.ir/admin -- 
+https://bsecurity.ir/backup -- 
+https://bsecurity.ir/backup.sql -- 
+https://bsecurity.ir/wp-login -- 
+http://www.vib.ir/admin -- 
+http://www.vib.ir/backup -- 
+http://www.vib.ir/backup.sql -- 
+http://www.vib.ir/vpn -- 
+http://www.vib.ir/wp-login -- 
+http://www.sarar.ir/admin -- 
+http://www.sarar.ir/backup -- 
+http://www.sarar.ir/backup.sql -- 
+http://www.sarar.ir/vpn -- 
+http://www.sarar.ir/cpanel -- 
+http://www.sarar.ir/wp-login -- 

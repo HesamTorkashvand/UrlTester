@@ -1,0 +1,10 @@
+C:\Users\Windows\source\repos\UrlTester\UrlTester\bin\Debug\UrlTester.exe.config
+C:\Users\Windows\source\repos\UrlTester\UrlTester\bin\Debug\UrlTester.exe
+C:\Users\Windows\source\repos\UrlTester\UrlTester\bin\Debug\UrlTester.pdb
+C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.AssemblyReference.cache
+C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.CoreCompileInputs.cache
+C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.exe
+C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.pdb
+C:\Users\Windows\source\repos\UrlTester\UrlTester\bin\Debug\RestSharp.dll
+C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.CopyComplete
