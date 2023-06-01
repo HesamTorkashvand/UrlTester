@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Figgle, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Figgle.0.5.1\lib\netstandard2.0\Figgle.dll</HintPath>
+    </Reference>
     <Reference Include="RestSharp">
       <HintPath>..\..\testapi\testapi\bin\Debug\RestSharp.dll</HintPath>
     </Reference>
@@ -51,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

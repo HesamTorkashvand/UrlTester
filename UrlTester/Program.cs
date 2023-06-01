@@ -3,17 +3,28 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 using RestSharp;
+using Figgle;
 
 class program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter file path for urls.txt: ");
+        Console.Title = "Url Tester By iHes4m";
+        Console.Clear();
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine(FiggleFonts.Standard.Render("URL Tester", null));
+        Console.WriteLine("=================================================");
+        Console.WriteLine("=        Fuzz URL List With WordList            =");
+        Console.WriteLine("=              TG ID => @CSATM                  =");         
+        Console.WriteLine("=              Coded By iHes4m                  =");
+        Console.WriteLine("= https://github.com/HesamTorkashvand/UrlTester =");
+        Console.WriteLine("=================================================");
+        Console.WriteLine();
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write("[+] Enter file path for urls.txt: ");
         string urlsFilePath = Console.ReadLine();
-
-        Console.WriteLine("Enter file path for words.txt: ");
+        Console.Write("[+] Enter file path for words.txt: ");
         string wordsFilePath = Console.ReadLine();
-
         var checker = new UrlChecker();
         checker.CheckUrls(urlsFilePath, wordsFilePath);
 
@@ -92,7 +103,7 @@ class UrlChecker
 
     private void PrintStatusAndPageTitle(string statusCode, string requestUrl, string pageTitle)
     {
-        Console.Title = $"Good: {GetCountOfStatusCode(statusCode, "200")} | Bad: {GetCountOfStatusCode(statusCode, "404")} | Error: {GetCountOfStatusCode(statusCode, "500")}";
+       
         ConsoleColor color = ConsoleColor.White;
 
         switch (statusCode)

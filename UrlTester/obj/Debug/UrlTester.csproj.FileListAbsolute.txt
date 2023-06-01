@@ -8,3 +8,14 @@ C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.exe
 C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.pdb
 C:\Users\Windows\source\repos\UrlTester\UrlTester\bin\Debug\RestSharp.dll
 C:\Users\Windows\source\repos\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.CopyComplete
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\bin\Debug\UrlTester.exe.config
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\bin\Debug\UrlTester.exe
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\bin\Debug\UrlTester.pdb
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\bin\Debug\Figgle.dll
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\bin\Debug\Figgle.xml
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\obj\Debug\UrlTester.csproj.CopyComplete
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\obj\Debug\UrlTester.exe
+C:\Users\Windows\Desktop\Files\UrlTester\UrlTester\obj\Debug\UrlTester.pdb
