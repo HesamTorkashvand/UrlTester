@@ -28,7 +28,7 @@ class program
         var checker = new UrlChecker();
         checker.CheckUrls(urlsFilePath, wordsFilePath);
 
-        Console.ReadLine();
+        //Console.ReadLine();
     }
 }
 
@@ -123,9 +123,9 @@ class UrlChecker
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write($"{requestUrl} | ");
         Console.ForegroundColor = color;
-        Console.Write($"[ {statusCode} ]");
+        Console.Write($"[ Status Code : {statusCode} ] -- ");
         Console.ResetColor();
-        Console.WriteLine($" [ {pageTitle} ] ");
+        Console.WriteLine($" [ Title : {pageTitle} ] ");
     }
 
     private void WriteUrlsToFile(Dictionary<string, List<string>> statusCodes)
