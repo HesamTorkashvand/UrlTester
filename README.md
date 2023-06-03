@@ -3,7 +3,7 @@ This tool helps you to **test all your test cases on a url** list and according 
 
 `options` : 
 - Fuzz Url List Via Test Cases 
-- Without Trade And Have 5 Seconds Timeout
+- Multi Thread And Have 5 Seconds Timeout
 - Get Title Pages
 
 
