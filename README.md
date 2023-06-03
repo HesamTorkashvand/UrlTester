@@ -14,7 +14,7 @@ This tool helps you to **test all your test cases on a url** list and according 
 ```
 git clone https://github.com/HesamTorkashvand/UrlTester/
 ```
-Manual download : [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-version.rar)
+Manual download : [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-Version.rar)
 
 
 <br>
@@ -22,7 +22,7 @@ Manual download : [Download](https://github.com/HesamTorkashvand/UrlTester/relea
 
 ### Usage : 
 
-- First You Should [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-version.rar) Output Tools
+- First You Should [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-Version.rar) Output Tools
 - Open UrlTester.exe
 - Set Your Url List And WordList
 - Let's Start Your Fuzz ...
