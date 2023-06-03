@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
@@ -9,7 +9,7 @@ class program
 {
     static void Main(string[] args)
     {
-        Console.Title = "Url Tester By iHes4m";
+        Console.Title = "Url Tester";
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine(FiggleFonts.Standard.Render("URL Tester", null));
@@ -27,8 +27,6 @@ class program
         string wordsFilePath = Console.ReadLine();
         var checker = new UrlChecker();
         checker.CheckUrls(urlsFilePath, wordsFilePath);
-
-        //Console.ReadLine();
     }
 }
 
@@ -37,6 +35,9 @@ class UrlChecker
     private readonly RestClient client;
     private readonly Regex titleRegex;
     private readonly Dictionary<string, List<string>> statusCodes;
+    private int goodCount = 0;
+    private int badCount = 0;
+    private int errorCount = 0;
 
     public UrlChecker()
     {
@@ -58,6 +59,7 @@ class UrlChecker
 
             while ((line = reader.ReadLine()) != null)
             {
+
                 string baseUrl = line.TrimEnd('/');
                 foreach (string word in words)
                 {
@@ -76,7 +78,23 @@ class UrlChecker
                     WriteStatusCodeToFile(statusCode, requestUrl, pageTitle);
 
                     PrintStatusAndPageTitle(statusCode, requestUrl, pageTitle);
+
+                    switch (statusCode)
+                    {
+                        case "200":
+                            goodCount++;
+                            break;
+                        case "404":
+                            badCount++;
+                            break;
+                        default:
+                            errorCount++;
+                            break;
+                    }
+
+                    Console.Title = $"Good: {goodCount} | Bad: {badCount} | Error: {errorCount}";
                 }
+              
             }
 
             WriteUrlsToFile(statusCodes);
@@ -103,7 +121,7 @@ class UrlChecker
 
     private void PrintStatusAndPageTitle(string statusCode, string requestUrl, string pageTitle)
     {
-       
+
         ConsoleColor color = ConsoleColor.White;
 
         switch (statusCode)
@@ -150,4 +168,5 @@ class UrlChecker
         IRestResponse response = client.Execute(request);
         return response;
     }
+
 }
