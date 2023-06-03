@@ -1,6 +1,0 @@
-https://www.certiport.com/portal
-https://www.certiport.com/login.php
-http://3.16.141.67/backup.sql
-https://mail.ausante.com/wp-login
-https://lesgourmets.sn/backup
-https://lesgourmets.sn/cpanel
