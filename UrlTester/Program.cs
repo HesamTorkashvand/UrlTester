@@ -4,13 +4,12 @@ using System.IO;
 using System.Text.RegularExpressions;
 using RestSharp;
 using Figgle;
+using System.Linq;
 
 class program
 {
     static void Main(string[] args)
     {
-        Console.Title = "Url Tester";
-        Console.Clear();
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine(FiggleFonts.Standard.Render("URL Tester", null));
         Console.WriteLine("=================================================");
@@ -21,11 +20,18 @@ class program
         Console.WriteLine("=================================================");
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.White;
+
         Console.Write("[+] Enter file path for urls.txt: ");
         string urlsFilePath = Console.ReadLine();
+
         Console.Write("[+] Enter file path for words.txt: ");
         string wordsFilePath = Console.ReadLine();
-        var checker = new UrlChecker();
+
+        int urlCount = File.ReadLines(urlsFilePath).Count();
+        int wordCount = File.ReadLines(wordsFilePath).Count();
+        int totalCount = urlCount * wordCount;
+
+        var checker = new UrlChecker(totalCount);
         checker.CheckUrls(urlsFilePath, wordsFilePath);
     }
 }
@@ -38,20 +44,20 @@ class UrlChecker
     private int goodCount = 0;
     private int badCount = 0;
     private int errorCount = 0;
+    private int remainingCount;
 
-    public UrlChecker()
+    public UrlChecker(int totalCount)
     {
         client = new RestClient();
         client.Timeout = 5000;
         titleRegex = new Regex(@"<title>(.*?)</title>");
         statusCodes = new Dictionary<string, List<string>>();
+        remainingCount = totalCount;
     }
 
     public void CheckUrls(string urlsFilePath, string wordsFilePath)
     {
-        string[] words = File.ReadAllLines(wordsFilePath);
-
-        Dictionary<string, List<string>> statusCodes = new Dictionary<string, List<string>>();
+       string[] words = File.ReadAllLines(wordsFilePath);
 
         using (StreamReader reader = new StreamReader(urlsFilePath))
         {
@@ -92,7 +98,8 @@ class UrlChecker
                             break;
                     }
 
-                    Console.Title = $"Good: {goodCount} | Bad: {badCount} | Error: {errorCount}";
+                    remainingCount--;
+                    Console.Title = $"Good: {goodCount} | Bad: {badCount} | Error: {errorCount} | Remaining: {remainingCount}";
                 }
               
             }
