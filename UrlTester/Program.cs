@@ -5,8 +5,9 @@ using System.Text.RegularExpressions;
 using RestSharp;
 using Figgle;
 using System.Linq;
+using System.Threading;
 
-class program
+class Program
 {
     static void Main(string[] args)
     {
@@ -14,26 +15,91 @@ class program
         Console.WriteLine(FiggleFonts.Standard.Render("URL Tester", null));
         Console.WriteLine("=================================================");
         Console.WriteLine("=        Fuzz URL List With WordList            =");
-        Console.WriteLine("=              TG ID => @CSATM                  =");         
+        Console.WriteLine("=              TG ID => @CSATM                  =");
         Console.WriteLine("=              Coded By iHes4m                  =");
         Console.WriteLine("= https://github.com/HesamTorkashvand/UrlTester =");
         Console.WriteLine("=================================================");
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.White;
 
-        Console.Write("[+] Enter file path for urls.txt: ");
-        string urlsFilePath = Console.ReadLine();
+        string urlsFilePath;
+        string wordsFilePath;
+        string outputFilePath = "output.txt";
 
-        Console.Write("[+] Enter file path for words.txt: ");
-        string wordsFilePath = Console.ReadLine();
+        try
+        {
+            if (File.Exists(outputFilePath))
+            {
+                Console.Write("[+] Output file already exists. Do you want to create a new list with the input files? [y/n]: ");
+                string answer = Console.ReadLine();
+                if (answer.ToLower() == "y")
+                {
+                    Console.Write("[+] Enter file path for urls.txt: ");
+                    urlsFilePath = Console.ReadLine();
 
-        int urlCount = File.ReadLines(urlsFilePath).Count();
-        int wordCount = File.ReadLines(wordsFilePath).Count();
-        int totalCount = urlCount * wordCount;
+                    Console.Write("[+] Enter file path for words.txt: ");
+                    wordsFilePath = Console.ReadLine();
 
-        var checker = new UrlChecker(totalCount);
-        checker.CheckUrls(urlsFilePath, wordsFilePath);
+                    CreateOutputFile(urlsFilePath, wordsFilePath, outputFilePath);
+                }
+            }
+            else
+            {
+                Console.Write("[+] Enter file path for urls.txt: ");
+                urlsFilePath = Console.ReadLine();
+
+                Console.Write("[+] Enter file path for words.txt: ");
+                wordsFilePath = Console.ReadLine();
+
+                CreateOutputFile(urlsFilePath, wordsFilePath, outputFilePath);
+            }
+
+            int urlCount = File.ReadLines(outputFilePath).Count();
+
+            var checker = new UrlChecker(urlCount);
+            checker.CheckUrls(outputFilePath);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
     }
+
+    private static void CreateOutputFile(string urlsFilePath, string wordsFilePath, string outputFilePath)
+    {
+        try
+        {
+            using (StreamWriter writer = new StreamWriter(outputFilePath))
+            {
+                string[] words = File.ReadAllLines(wordsFilePath);
+
+                using (StreamReader reader = new StreamReader(urlsFilePath))
+                {
+                    string line;
+
+                    while ((line = reader.ReadLine()) != null)
+                    {
+
+                        string baseUrl = line.TrimEnd('/');
+                        foreach (string word in words)
+                        {
+                            string trimmedWord = word.Trim();
+                            string requestUrl = baseUrl + "/" + trimmedWord;
+
+                            writer.WriteLine(requestUrl);
+                        }
+                    }
+                }
+            }
+
+            Console.WriteLine("[+] Output file created successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
+    }
+
 }
 
 class UrlChecker
@@ -55,112 +121,157 @@ class UrlChecker
         remainingCount = totalCount;
     }
 
-    public void CheckUrls(string urlsFilePath, string wordsFilePath)
+    public void CheckUrls(string outputFilePath)
     {
-       string[] words = File.ReadAllLines(wordsFilePath);
-
-        using (StreamReader reader = new StreamReader(urlsFilePath))
+        try
         {
-            string line;
+            string[] urls = File.ReadAllLines(outputFilePath);
 
-            while ((line = reader.ReadLine()) != null)
+            foreach (string url in urls)
             {
-
-                string baseUrl = line.TrimEnd('/');
-                foreach (string word in words)
-                {
-                    string trimmedWord = word.Trim();
-                    string requestUrl = baseUrl + "/" + trimmedWord;
-                    var response = GetResponse(requestUrl);
-                    string statusCode = ((int)response.StatusCode).ToString();
-
-                    Match titleMatch = titleRegex.Match(response.Content);
-                    string pageTitle = "";
-                    if (titleMatch.Success)
-                        pageTitle = titleMatch.Groups[1].Value.Trim();
-
-                    AddUrlToStatusCodes(statusCodes, statusCode, requestUrl, pageTitle);
-
-                    WriteStatusCodeToFile(statusCode, requestUrl, pageTitle);
-
-                    PrintStatusAndPageTitle(statusCode, requestUrl, pageTitle);
-
-                    switch (statusCode)
-                    {
-                        case "200":
-                            goodCount++;
-                            break;
-                        case "404":
-                            badCount++;
-                            break;
-                        default:
-                            errorCount++;
-                            break;
-                    }
-
-                    remainingCount--;
-                    Console.Title = $"Good: {goodCount} | Bad: {badCount} | Error: {errorCount} | Remaining: {remainingCount}";
-                }
-              
+                ThreadPool.QueueUserWorkItem(new WaitCallback(CheckUrl), url);
             }
 
-            WriteUrlsToFile(statusCodes);
+            while (remainingCount > 0)
+            {
+                Thread.Sleep(1000);
+            }
+
+            WriteUrlsToFile(statusCodes, outputFilePath);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
+    }
+
+    private void CheckUrl(object data)
+    {
+        string url = (string)data;
+
+        try
+        {
+            var response = GetResponse(url);
+            string statusCode = ((int)response.StatusCode).ToString();
+
+            Match titleMatch = titleRegex.Match(response.Content);
+            string pageTitle = "";
+            if (titleMatch.Success)
+                pageTitle = titleMatch.Groups[1].Value.Trim();
+
+            AddUrlToStatusCodes(statusCodes, statusCode, url, pageTitle);
+
+            WriteStatusCodeToFile(statusCode, url, pageTitle);
+
+            PrintStatusAndPageTitle(statusCode, url, pageTitle);
+
+            switch (statusCode)
+            {
+                case "200":
+                    Interlocked.Increment(ref goodCount);
+                    break;
+                case "404":
+                    Interlocked.Increment(ref badCount);
+                    break;
+                default:
+                    Interlocked.Increment(ref errorCount);
+                    break;
+            }
+            Interlocked.Decrement(ref remainingCount);
+            Console.Title = $"Good: {goodCount} | Bad: {badCount} | Error: {errorCount} | Remaining: {remainingCount}";
+
+            RemoveUrlFromOutputFile(url);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Decrement(ref remainingCount);
         }
     }
 
     private void AddUrlToStatusCodes(Dictionary<string, List<string>> statusCodes, string statusCode, string requestUrl, string pageTitle)
     {
-        if (!statusCodes.ContainsKey(statusCode))
-            statusCodes.Add(statusCode, new List<string>());
+        try
+        {
+            lock (statusCodes)
+            {
+                if (!statusCodes.ContainsKey(statusCode))
+                    statusCodes.Add(statusCode, new List<string>());
 
-        string urlWithTitle = requestUrl + " -- " + pageTitle;
-        statusCodes[statusCode].Add(urlWithTitle);
+                string urlWithTitle = requestUrl + " -- " + pageTitle;
+                statusCodes[statusCode].Add(urlWithTitle);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
     }
 
     private void WriteStatusCodeToFile(string statusCode, string requestUrl, string pageTitle)
     {
-        string statusCodeFilePath = statusCode + ".txt";
-        StreamWriter writer = new StreamWriter(statusCodeFilePath);
-        string urlWithTitle = requestUrl + " -- " + pageTitle;
-        writer.WriteLine(urlWithTitle);
-        writer.Close();
+        try
+        {
+            string statusCodeFilePath = statusCode + ".txt";
+            StreamWriter writer = new StreamWriter(statusCodeFilePath, true); // Set append mode to add new URLs to the end of the file
+            string urlWithTitle = requestUrl + " -- " + pageTitle;
+            writer.WriteLine(urlWithTitle);
+            writer.Close();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
     }
 
     private void PrintStatusAndPageTitle(string statusCode, string requestUrl, string pageTitle)
     {
-
-        ConsoleColor color = ConsoleColor.White;
-
-        switch (statusCode)
+        try
         {
-            case "200":
-                color = ConsoleColor.Green;
-                break;
-            case "404":
-                color = ConsoleColor.Red;
-                break;
-            case "500":
-                color = ConsoleColor.Yellow;
-                break;
-        }
+            ConsoleColor color = ConsoleColor.White;
 
-        Console.Write("[+] url => ");
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.Write($"{requestUrl} | ");
-        Console.ForegroundColor = color;
-        Console.Write($"[ Status Code : {statusCode} ] -- ");
-        Console.ResetColor();
-        Console.WriteLine($" [ Title : {pageTitle} ] ");
+            switch (statusCode)
+            {
+                case "200":
+                    color = ConsoleColor.Green;
+                    break;
+                case "404":
+                    color = ConsoleColor.Red;
+                    break;
+                case "500":
+                    color = ConsoleColor.Yellow;
+                    break;
+            }
+
+            Console.Write("[+] url => ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write($"{requestUrl} | ");
+            Console.ForegroundColor = color;
+            Console.Write($"[ Status Code : {statusCode} ] -- ");
+            Console.ResetColor();
+            Console.WriteLine($" [ Title : {pageTitle} ] ");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
     }
 
-    private void WriteUrlsToFile(Dictionary<string, List<string>> statusCodes)
+    private void WriteUrlsToFile(Dictionary<string, List<string>> statusCodes, string outputFilePath)
     {
-        foreach (KeyValuePair<string, List<string>> kvp in statusCodes)
+        try
         {
-            string statusCode = kvp.Key;
-            List<string> urls = kvp.Value;
+            foreach (KeyValuePair<string, List<string>> kvp in statusCodes)
+            {
+                string statusCode = kvp.Key;
+                List<string> urls = kvp.Value;
 
-            File.WriteAllLines(statusCode + ".txt", urls);
+                File.WriteAllLines(statusCode + ".txt", urls);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
         }
     }
 
@@ -171,9 +282,34 @@ class UrlChecker
 
     private IRestResponse GetResponse(string url)
     {
-        RestRequest request = new RestRequest(url);
-        IRestResponse response = client.Execute(request);
+        var request = new RestRequest(url, Method.GET);
+        IRestResponse response = null;
+
+        try
+        {
+            response = client.Execute(request);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
+
         return response;
+    }
+
+    private void RemoveUrlFromOutputFile(string url)
+    {
+        try
+        {
+            string outputFilePath = "output.txt";
+            var file = new List<string>(System.IO.File.ReadAllLines(outputFilePath));
+            file.Remove(url);
+            System.IO.File.WriteAllLines(outputFilePath, file.ToArray());
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[-] Error: {ex.Message}");
+        }
     }
 
 }

@@ -1,0 +1,115 @@
+https://nanacast.com/login.php -- Nanacast Login
+https://nanacast.com/backup -- Nanacast
+https://nanacast.com/cpanel -- cPanel Redirect
+https://nanacast.com/wp-login -- Nanacast
+http://www.faithpc.us/cpanel -- cPanel Redirect
+https://regquick.us/login.php -- RegQuick - Admin Login
+https://regquick.us/admin -- RegQuick - Admin Login
+https://regquick.us/cpanel -- cPanel Redirect
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/portal -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/login.php -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/admin -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.sql -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/cpanel -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/wp-login -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.tar.gz -- Account Suspended
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup.tar.gz -- 
+http://keysystems.ru/files/smeta/install/Tools/Backup/backup.sql -- 
+https://mail.ausante.com/backup.sql -- 
+https://mail.ausante.com/cpanel -- cPanel Redirect
+https://staging.rikkazimmerman.com/backup.sql -- 
+https://staging.rikkazimmerman.com/cpanel -- cPanel Login
+http://bblogwms.com.br/backup.sql -- 
+http://bblogwms.com.br/cpanel -- cPanel Redirect
+https://www.hevapla.ch/global/wGlobal/content/data/backup/backup.sql -- 
+https://www.many-blessings.com/backup -- Index of /backup
+https://www.many-blessings.com/cpanel -- cPanel Redirect
+https://www.pipit.smkn1-takeran.sch.id/cpanel -- cPanel Redirect
+https://www.bearing-news.com/admin -- Log In &lsaquo; BEARING NEWS &#8212; WordPress
+https://www.bearing-news.com/cpanel -- cPanel Login
+https://www.topangahistoricalsociety.org/cms/backup.sql -- 
+https://lesgourmets.sn/cpanel -- cPanel Redirect
+http://www.microsurvey.com.mx/helpdesk/admin -- Index of /helpdesk/admin
+http://www.microsurvey.com.mx/helpdesk/backup.sql -- 
+http://www.microsurvey.com.mx/helpdesk/backup.tar.gz -- 
+http://13.234.45.78/backup -- Index of /backup
+https://nanacast.com/login.php -- Nanacast Login
+https://nanacast.com/cpanel -- cPanel Redirect
+https://nanacast.com/portal -- Nanacast
+https://nanacast.com/backup -- Nanacast
+http://www.faithpc.us/cpanel -- cPanel Redirect
+https://nanacast.com/wp-login -- Nanacast
+https://regquick.us/login.php -- RegQuick - Admin Login
+https://regquick.us/cpanel -- cPanel Redirect
+https://regquick.us/admin -- RegQuick - Admin Login
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/portal -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/login.php -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/admin -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.sql -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/cpanel -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/wp-login -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.tar.gz -- Account Suspended
+http://keysystems.ru/files/smeta/install/Tools/Backup/backup.sql -- 
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup.tar.gz -- 
+https://mail.ausante.com/cpanel -- cPanel Redirect
+https://staging.rikkazimmerman.com/cpanel -- cPanel Login
+http://bblogwms.com.br/cpanel -- cPanel Redirect
+https://www.hevapla.ch/global/wGlobal/content/data/backup/backup.sql -- 
+https://www.many-blessings.com/cpanel -- cPanel Redirect
+https://www.many-blessings.com/backup -- Index of /backup
+https://www.pipit.smkn1-takeran.sch.id/cpanel -- cPanel Redirect
+https://nanacast.com/login.php -- Nanacast Login
+https://nanacast.com/cpanel -- cPanel Redirect
+https://nanacast.com/portal -- Nanacast
+http://www.faithpc.us/cpanel -- cPanel Redirect
+https://nanacast.com/backup -- Nanacast
+https://nanacast.com/wp-login -- Nanacast
+https://regquick.us/login.php -- RegQuick - Admin Login
+https://regquick.us/admin -- RegQuick - Admin Login
+https://regquick.us/cpanel -- cPanel Redirect
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/portal -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/login.php -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/admin -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.sql -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/cpanel -- Account Suspended
+https://nanacast.com/login.php -- Nanacast Login
+https://nanacast.com/cpanel -- cPanel Redirect
+https://nanacast.com/portal -- Nanacast
+https://nanacast.com/backup -- Nanacast
+http://www.faithpc.us/cpanel -- cPanel Redirect
+https://nanacast.com/wp-login -- Nanacast
+https://regquick.us/login.php -- RegQuick - Admin Login
+https://regquick.us/admin -- RegQuick - Admin Login
+https://regquick.us/cpanel -- cPanel Redirect
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/portal -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/login.php -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/admin -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.sql -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/cpanel -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.tar.gz -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/admin -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/cpanel -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/wp-login -- Account Suspended
+https://www.shopping-landz.com/wp-content/uploads/wr-nitro/sample-data/niche-20/backups/20180502072911/backup.tar.gz -- Account Suspended
+http://keysystems.ru/files/smeta/install/Tools/Backup/backup.sql -- 
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup.tar.gz -- 
+https://mail.ausante.com/cpanel -- cPanel Redirect
+https://staging.rikkazimmerman.com/cpanel -- cPanel Login
+http://bblogwms.com.br/cpanel -- cPanel Redirect
+https://www.hevapla.ch/global/wGlobal/content/data/backup/backup.sql -- 
+https://www.many-blessings.com/cpanel -- cPanel Redirect
+https://www.many-blessings.com/backup -- Index of /backup
+https://www.pipit.smkn1-takeran.sch.id/cpanel -- cPanel Redirect
+https://www.bearing-news.com/cpanel -- cPanel Login
+https://www.bearing-news.com/admin -- Log In &lsaquo; BEARING NEWS &#8212; WordPress
+https://www.topangahistoricalsociety.org/cms/backup.sql -- 
+http://13.234.45.78/backup -- Index of /backup
+https://staging.rikkazimmerman.com/backup.sql -- 
+https://mail.ausante.com/backup.sql -- 
+http://www.microsurvey.com.mx/helpdesk/backup.tar.gz -- 
+http://www.microsurvey.com.mx/helpdesk/backup.sql -- 
+http://bblogwms.com.br/backup.sql -- 

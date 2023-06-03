@@ -1,0 +1,315 @@
+https://www.verbjesuit.org/backup.sql -- 
+https://nanacast.com/admin -- 
+https://nanacast.com/backup.sql -- 
+https://nanacast.com/backup.tar.gz -- 
+http://www.faithpc.us/portal -- 404 Not Found
+http://www.faithpc.us/login.php -- 404 Not Found
+http://www.faithpc.us/backup -- 404 Not Found
+http://www.faithpc.us/backup.sql -- 404 Not Found
+http://www.faithpc.us/wp-login -- 404 Not Found
+http://www.faithpc.us/backup.tar.gz -- 404 Not Found
+https://regquick.us/portal -- File Not Found
+https://regquick.us/backup -- File Not Found
+https://regquick.us/backup.sql -- File Not Found
+https://regquick.us/wp-login -- File Not Found
+https://regquick.us/backup.tar.gz -- File Not Found
+http://3.16.141.67/portal -- 404 Not Found
+http://3.16.141.67/login.php -- 404 Not Found
+http://3.16.141.67/admin -- 404 Not Found
+http://3.16.141.67/backup -- 404 Not Found
+http://3.16.141.67/cpanel -- 404 Not Found
+http://3.16.141.67/wp-login -- 404 Not Found
+http://3.16.141.67/backup.tar.gz -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/portal -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/login.php -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/admin -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup.sql -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/cpanel -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/wp-login -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/portal -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/login.php -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/admin -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/cpanel -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/wp-login -- 404 Not Found
+https://mail.ausante.com/portal -- 404 Not Found
+https://mail.ausante.com/login.php -- 404 Not Found
+https://mail.ausante.com/admin -- 404 Not Found
+https://mail.ausante.com/backup -- 404 Not Found
+https://mail.ausante.com/wp-login -- 404 Not Found
+https://mail.ausante.com/backup.tar.gz -- 404 Not Found
+https://staging.rikkazimmerman.com/portal -- 404 Not Found
+https://staging.rikkazimmerman.com/login.php -- 
+https://staging.rikkazimmerman.com/admin -- 404 Not Found
+https://staging.rikkazimmerman.com/backup -- 404 Not Found
+https://staging.rikkazimmerman.com/wp-login -- 404 Not Found
+https://staging.rikkazimmerman.com/backup.tar.gz -- 404 Not Found
+https://ftpmirror.your.org/portal -- 404 Not Found
+https://ftpmirror.your.org/login.php -- 404 Not Found
+https://ftpmirror.your.org/admin -- 404 Not Found
+https://ftpmirror.your.org/backup -- 404 Not Found
+https://ftpmirror.your.org/backup.sql -- 404 Not Found
+https://ftpmirror.your.org/cpanel -- 404 Not Found
+https://ftpmirror.your.org/wp-login -- 404 Not Found
+https://ftpmirror.your.org/backup.tar.gz -- 404 Not Found
+http://bblogwms.com.br/portal -- 
+http://bblogwms.com.br/login.php -- 
+http://bblogwms.com.br/admin -- 
+http://bblogwms.com.br/backup -- 
+http://bblogwms.com.br/wp-login -- 
+http://bblogwms.com.br/backup.tar.gz -- 
+https://www.hevapla.ch/global/wGlobal/content/data/backup/portal -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/login.php -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/admin -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/cpanel -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/wp-login -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/backup.tar.gz -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.many-blessings.com/login.php -- 404 Not Found
+https://www.many-blessings.com/admin -- 404 Not Found
+https://www.many-blessings.com/backup.sql -- 404 Not Found
+https://www.many-blessings.com/wp-login -- 404 Not Found
+https://www.many-blessings.com/backup.tar.gz -- 404 Not Found
+https://www.pipit.smkn1-takeran.sch.id/portal -- 
+https://www.pipit.smkn1-takeran.sch.id/login.php -- 
+https://www.pipit.smkn1-takeran.sch.id/admin -- 
+https://www.pipit.smkn1-takeran.sch.id/backup -- 
+https://www.pipit.smkn1-takeran.sch.id/backup.sql -- 
+https://www.pipit.smkn1-takeran.sch.id/wp-login -- 
+https://www.pipit.smkn1-takeran.sch.id/backup.tar.gz -- 
+https://www.bearing-news.com/portal -- Page not found - BEARING NEWS
+https://www.bearing-news.com/login.php -- 
+https://www.bearing-news.com/backup -- Page not found - BEARING NEWS
+https://www.bearing-news.com/backup.sql -- Page not found - BEARING NEWS
+https://www.bearing-news.com/wp-login -- Page not found - BEARING NEWS
+https://www.bearing-news.com/backup.tar.gz -- Page not found - BEARING NEWS
+https://info.pyo1.go.th/backupdb/portal -- 404 Not Found
+https://info.pyo1.go.th/backupdb/login.php -- 404 Not Found
+https://info.pyo1.go.th/backupdb/admin -- 404 Not Found
+https://info.pyo1.go.th/backupdb/backup -- 404 Not Found
+https://info.pyo1.go.th/backupdb/backup.sql -- 404 Not Found
+https://info.pyo1.go.th/backupdb/cpanel -- 404 Not Found
+https://info.pyo1.go.th/backupdb/wp-login -- 404 Not Found
+https://info.pyo1.go.th/backupdb/backup.tar.gz -- 404 Not Found
+https://www.topangahistoricalsociety.org/cms/admin -- Page not found &#8211; Topanga Historical Society
+https://www.topangahistoricalsociety.org/cms/backup -- Page not found &#8211; Topanga Historical Society
+https://www.topangahistoricalsociety.org/cms/cpanel -- Page not found &#8211; Topanga Historical Society
+https://www.topangahistoricalsociety.org/cms/wp-login -- Page not found &#8211; Topanga Historical Society
+https://www.topangahistoricalsociety.org/cms/backup.tar.gz -- Page not found &#8211; Topanga Historical Society
+http://www.microsurvey.com.mx/helpdesk/portal -- 404 Not Found
+http://www.microsurvey.com.mx/helpdesk/login.php -- 
+http://www.microsurvey.com.mx/helpdesk/backup -- 404 Not Found
+http://www.microsurvey.com.mx/helpdesk/cpanel -- 404 Not Found
+http://www.microsurvey.com.mx/helpdesk/wp-login -- 404 Not Found
+http://13.234.45.78/portal -- 404 Not Found
+http://13.234.45.78/login.php -- 404 Not Found
+http://13.234.45.78/admin -- 404 Not Found
+http://13.234.45.78/backup.sql -- 404 Not Found
+http://13.234.45.78/cpanel -- 404 Not Found
+http://13.234.45.78/wp-login -- 404 Not Found
+http://13.234.45.78/backup.tar.gz -- 404 Not Found
+https://www.verbjesuit.org/backup.sql -- 
+https://www.verbjesuit.org/backup.tar.gz -- 
+https://nanacast.com/admin -- 
+https://nanacast.com/backup.sql -- 
+https://nanacast.com/backup.tar.gz -- 
+http://www.faithpc.us/login.php -- 404 Not Found
+http://www.faithpc.us/portal -- 404 Not Found
+http://www.faithpc.us/backup -- 404 Not Found
+http://www.faithpc.us/backup.sql -- 404 Not Found
+http://www.faithpc.us/wp-login -- 404 Not Found
+http://www.faithpc.us/backup.tar.gz -- 404 Not Found
+https://regquick.us/portal -- File Not Found
+https://regquick.us/backup -- File Not Found
+https://regquick.us/backup.sql -- File Not Found
+https://regquick.us/wp-login -- File Not Found
+https://regquick.us/backup.tar.gz -- File Not Found
+http://3.16.141.67/portal -- 404 Not Found
+http://3.16.141.67/login.php -- 404 Not Found
+http://3.16.141.67/admin -- 404 Not Found
+http://3.16.141.67/backup -- 404 Not Found
+http://3.16.141.67/cpanel -- 404 Not Found
+http://3.16.141.67/backup.tar.gz -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/portal -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/login.php -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/admin -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup.sql -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/cpanel -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/wp-login -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/portal -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/login.php -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/admin -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/cpanel -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/wp-login -- 404 Not Found
+https://mail.ausante.com/portal -- 404 Not Found
+https://mail.ausante.com/login.php -- 404 Not Found
+https://mail.ausante.com/admin -- 404 Not Found
+https://mail.ausante.com/backup -- 404 Not Found
+https://staging.rikkazimmerman.com/login.php -- 
+https://staging.rikkazimmerman.com/portal -- 404 Not Found
+https://staging.rikkazimmerman.com/backup -- 404 Not Found
+https://staging.rikkazimmerman.com/admin -- 404 Not Found
+https://mail.ausante.com/backup.tar.gz -- 404 Not Found
+https://staging.rikkazimmerman.com/backup.tar.gz -- 404 Not Found
+https://ftpmirror.your.org/portal -- 404 Not Found
+https://ftpmirror.your.org/admin -- 404 Not Found
+https://ftpmirror.your.org/login.php -- 404 Not Found
+https://ftpmirror.your.org/backup.sql -- 404 Not Found
+https://ftpmirror.your.org/backup -- 404 Not Found
+https://ftpmirror.your.org/wp-login -- 404 Not Found
+http://bblogwms.com.br/portal -- 
+https://ftpmirror.your.org/cpanel -- 404 Not Found
+http://bblogwms.com.br/login.php -- 
+http://bblogwms.com.br/admin -- 
+https://ftpmirror.your.org/backup.tar.gz -- 404 Not Found
+http://bblogwms.com.br/backup -- 
+https://www.hevapla.ch/global/wGlobal/content/data/backup/portal -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/admin -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/login.php -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/cpanel -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/wp-login -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/backup.tar.gz -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.many-blessings.com/login.php -- 404 Not Found
+https://www.many-blessings.com/portal -- 404 Not Found
+https://www.many-blessings.com/admin -- 404 Not Found
+https://www.many-blessings.com/backup.sql -- 404 Not Found
+https://www.many-blessings.com/wp-login -- 404 Not Found
+https://www.many-blessings.com/backup.tar.gz -- 404 Not Found
+https://www.pipit.smkn1-takeran.sch.id/portal -- 
+https://www.pipit.smkn1-takeran.sch.id/login.php -- 
+https://www.bearing-news.com/login.php -- 
+https://www.pipit.smkn1-takeran.sch.id/admin -- 
+https://www.pipit.smkn1-takeran.sch.id/backup -- 
+https://www.bearing-news.com/portal -- Page not found - BEARING NEWS
+https://www.pipit.smkn1-takeran.sch.id/backup.sql -- 
+https://www.bearing-news.com/backup -- Page not found - BEARING NEWS
+https://www.pipit.smkn1-takeran.sch.id/wp-login -- 
+https://www.pipit.smkn1-takeran.sch.id/backup.tar.gz -- 
+https://info.pyo1.go.th/backupdb/portal -- 404 Not Found
+https://info.pyo1.go.th/backupdb/login.php -- 404 Not Found
+https://info.pyo1.go.th/backupdb/admin -- 404 Not Found
+https://info.pyo1.go.th/backupdb/cpanel -- 404 Not Found
+https://www.bearing-news.com/backup.sql -- Page not found - BEARING NEWS
+https://www.bearing-news.com/backup.tar.gz -- Page not found - BEARING NEWS
+https://info.pyo1.go.th/backupdb/backup.sql -- 404 Not Found
+https://www.verbjesuit.org/backup.tar.gz -- 
+https://www.verbjesuit.org/backup.sql -- 
+https://nanacast.com/admin -- 
+https://nanacast.com/backup.sql -- 
+http://www.faithpc.us/portal -- 404 Not Found
+http://www.faithpc.us/login.php -- 404 Not Found
+http://www.faithpc.us/backup -- 404 Not Found
+https://nanacast.com/backup.tar.gz -- 
+http://www.faithpc.us/backup.sql -- 404 Not Found
+http://www.faithpc.us/wp-login -- 404 Not Found
+http://www.faithpc.us/backup.tar.gz -- 404 Not Found
+https://regquick.us/portal -- File Not Found
+https://regquick.us/backup -- File Not Found
+https://regquick.us/backup.sql -- File Not Found
+https://regquick.us/wp-login -- File Not Found
+https://regquick.us/backup.tar.gz -- File Not Found
+https://nanacast.com/admin -- 
+https://www.verbjesuit.org/backup.sql -- 
+https://nanacast.com/backup.sql -- 
+https://www.verbjesuit.org/backup.tar.gz -- 
+http://www.faithpc.us/portal -- 404 Not Found
+http://www.faithpc.us/login.php -- 404 Not Found
+https://nanacast.com/backup.tar.gz -- 
+http://www.faithpc.us/backup -- 404 Not Found
+http://www.faithpc.us/backup.sql -- 404 Not Found
+http://www.faithpc.us/wp-login -- 404 Not Found
+http://www.faithpc.us/backup.tar.gz -- 404 Not Found
+https://regquick.us/portal -- File Not Found
+https://regquick.us/backup -- File Not Found
+https://regquick.us/backup.sql -- File Not Found
+https://regquick.us/wp-login -- File Not Found
+https://regquick.us/backup.tar.gz -- File Not Found
+http://3.16.141.67/portal -- 404 Not Found
+http://3.16.141.67/login.php -- 404 Not Found
+http://3.16.141.67/admin -- 404 Not Found
+http://3.16.141.67/backup -- 404 Not Found
+http://3.16.141.67/cpanel -- 404 Not Found
+http://3.16.141.67/backup -- 404 Not Found
+http://3.16.141.67/cpanel -- 404 Not Found
+http://3.16.141.67/wp-login -- 404 Not Found
+http://3.16.141.67/backup.tar.gz -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/portal -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/login.php -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/admin -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/cpanel -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/backup.sql -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/wp-login -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/login.php -- 404 Not Found
+http://people.ee.ethz.ch/~basement/backup/forum/07-11-2017/cpanel -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/admin -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/cpanel -- 404 Not Found
+http://keysystems.ru/files/smeta/install/Tools/Backup/wp-login -- 404 Not Found
+https://mail.ausante.com/portal -- 404 Not Found
+https://mail.ausante.com/login.php -- 404 Not Found
+https://mail.ausante.com/admin -- 404 Not Found
+https://mail.ausante.com/backup -- 404 Not Found
+https://staging.rikkazimmerman.com/login.php -- 
+https://staging.rikkazimmerman.com/portal -- 404 Not Found
+https://mail.ausante.com/backup.tar.gz -- 404 Not Found
+https://staging.rikkazimmerman.com/backup -- 404 Not Found
+https://staging.rikkazimmerman.com/admin -- 404 Not Found
+https://staging.rikkazimmerman.com/wp-login -- 404 Not Found
+https://ftpmirror.your.org/portal -- 404 Not Found
+https://ftpmirror.your.org/admin -- 404 Not Found
+https://ftpmirror.your.org/login.php -- 404 Not Found
+https://ftpmirror.your.org/backup.sql -- 404 Not Found
+https://ftpmirror.your.org/backup -- 404 Not Found
+https://ftpmirror.your.org/wp-login -- 404 Not Found
+https://ftpmirror.your.org/cpanel -- 404 Not Found
+https://ftpmirror.your.org/backup.tar.gz -- 404 Not Found
+http://bblogwms.com.br/login.php -- 
+http://bblogwms.com.br/portal -- 
+http://bblogwms.com.br/backup -- 
+http://bblogwms.com.br/admin -- 
+https://www.hevapla.ch/global/wGlobal/content/data/backup/login.php -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/portal -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+http://bblogwms.com.br/backup.tar.gz -- 
+https://www.hevapla.ch/global/wGlobal/content/data/backup/admin -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/cpanel -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.hevapla.ch/global/wGlobal/content/data/backup/backup.tar.gz -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.many-blessings.com/login.php -- 404 Not Found
+https://www.many-blessings.com/admin -- 404 Not Found
+https://www.many-blessings.com/backup.sql -- 404 Not Found
+https://www.pipit.smkn1-takeran.sch.id/portal -- 
+https://www.pipit.smkn1-takeran.sch.id/login.php -- 
+https://www.many-blessings.com/backup.tar.gz -- 404 Not Found
+https://www.many-blessings.com/wp-login -- 404 Not Found
+https://www.pipit.smkn1-takeran.sch.id/admin -- 
+https://www.pipit.smkn1-takeran.sch.id/backup -- 
+https://www.pipit.smkn1-takeran.sch.id/backup.sql -- 
+https://www.bearing-news.com/login.php -- 
+https://www.hevapla.ch/global/wGlobal/content/data/backup/wp-login -- Die von Ihnen aufgerufene Seite existiert nicht – Hevapla AG
+https://www.pipit.smkn1-takeran.sch.id/backup.tar.gz -- 
+https://www.pipit.smkn1-takeran.sch.id/wp-login -- 
+https://www.bearing-news.com/backup -- Page not found - BEARING NEWS
+https://www.bearing-news.com/portal -- Page not found - BEARING NEWS
+https://info.pyo1.go.th/backupdb/login.php -- 404 Not Found
+https://info.pyo1.go.th/backupdb/portal -- 404 Not Found
+https://info.pyo1.go.th/backupdb/backup -- 404 Not Found
+https://info.pyo1.go.th/backupdb/admin -- 404 Not Found
+https://info.pyo1.go.th/backupdb/cpanel -- 404 Not Found
+https://info.pyo1.go.th/backupdb/backup.sql -- 404 Not Found
+https://info.pyo1.go.th/backupdb/backup.tar.gz -- 404 Not Found
+https://info.pyo1.go.th/backupdb/wp-login -- 404 Not Found
+https://www.bearing-news.com/backup.tar.gz -- Page not found - BEARING NEWS
+https://www.bearing-news.com/backup.sql -- Page not found - BEARING NEWS
+https://www.topangahistoricalsociety.org/cms/login.php -- Page not found &#8211; Topanga Historical Society
+https://www.bearing-news.com/wp-login -- Page not found - BEARING NEWS
+http://www.microsurvey.com.mx/helpdesk/login.php -- 
+http://www.microsurvey.com.mx/helpdesk/portal -- 404 Not Found
+http://www.microsurvey.com.mx/helpdesk/backup -- 404 Not Found
+https://www.topangahistoricalsociety.org/cms/portal -- Page not found &#8211; Topanga Historical Society
+http://www.microsurvey.com.mx/helpdesk/cpanel -- 404 Not Found
+https://www.topangahistoricalsociety.org/cms/backup -- Page not found &#8211; Topanga Historical Society
+http://13.234.45.78/portal -- 404 Not Found
+http://13.234.45.78/admin -- 404 Not Found
+http://13.234.45.78/backup.sql -- 404 Not Found
+http://13.234.45.78/wp-login -- 404 Not Found
+http://13.234.45.78/login.php -- 404 Not Found
+http://13.234.45.78/backup.tar.gz -- 404 Not Found
+http://13.234.45.78/cpanel -- 404 Not Found
