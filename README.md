@@ -2,7 +2,7 @@
 This tool helps you to **test all your test cases on a url** list and according to the received status codes after sending the request, it separates them for you and also **shows you the titles of the pages**.
 
 `options` : 
-- Fuzz Url List Via Test Cases 
+- Fuzz Subdomin List or Url List Via Test Cases 
 - Multi Thread And Have 5 Seconds Timeout
 - Get Title Pages
 
