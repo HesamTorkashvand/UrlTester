@@ -3,18 +3,22 @@ This tool helps you to **test all your test cases on a url** list and according 
 
 `options` : 
 - Fuzz Url List Via Test Cases 
-- Without Trade And Have 5 Seconds Timeout
+- Multi Thread And Have 5 Seconds Timeout
 - Get Title Pages
 
 
 <br>
 
 ### Installation : 
-
+Step 1 : Open Command Prompt And Write :
 ```
 git clone https://github.com/HesamTorkashvand/UrlTester/
 ```
-Manual download : [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-version.rar)
+Step 2 : Open UrlTester.sln in visual Studio and click on Start <br>
+Step 3 : Go to UrlTester/bin/Debug And Run UrlTester.exe
+<br><br>
+Manual download :
+[Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-Version.rar)
 
 
 <br>
@@ -22,7 +26,7 @@ Manual download : [Download](https://github.com/HesamTorkashvand/UrlTester/relea
 
 ### Usage : 
 
-- First You Should [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-version.rar) Output Tools
+- First You Should [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-Version.rar) Output Tools
 - Open UrlTester.exe
 - Set Your Url List And WordList
 - Let's Start Your Fuzz ...
