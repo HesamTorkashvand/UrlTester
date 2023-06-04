@@ -11,6 +11,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.Title = "Url Checker | iHes4m";
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine(FiggleFonts.Standard.Render("URL Tester", null));
         Console.WriteLine("=================================================");
@@ -59,9 +60,9 @@ class Program
             var checker = new UrlChecker(urlCount);
             checker.CheckUrls(outputFilePath);
         }
-        catch (Exception ex)
+        catch
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            return;
         }
     }
 
@@ -92,11 +93,11 @@ class Program
                 }
             }
 
-            Console.WriteLine("[+] Output file created successfully.");
+            Console.WriteLine("[+] Starting Check Urls .");
         }
-        catch (Exception ex)
+        catch 
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            return;
         }
     }
 
@@ -139,9 +140,9 @@ class UrlChecker
 
             WriteUrlsToFile(statusCodes, outputFilePath);
         }
-        catch (Exception ex)
+        catch
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
         }
     }
 
@@ -182,9 +183,9 @@ class UrlChecker
 
             RemoveUrlFromOutputFile(url);
         }
-        catch (Exception ex)
+        catch 
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
             Interlocked.Decrement(ref remainingCount);
         }
     }
@@ -202,9 +203,9 @@ class UrlChecker
                 statusCodes[statusCode].Add(urlWithTitle);
             }
         }
-        catch (Exception ex)
+        catch 
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
         }
     }
 
@@ -218,9 +219,9 @@ class UrlChecker
             writer.WriteLine(urlWithTitle);
             writer.Close();
         }
-        catch (Exception ex)
+        catch 
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
         }
     }
 
@@ -251,9 +252,9 @@ class UrlChecker
             Console.ResetColor();
             Console.WriteLine($" [ Title : {pageTitle} ] ");
         }
-        catch (Exception ex)
+        catch
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
         }
     }
 
@@ -269,9 +270,9 @@ class UrlChecker
                 File.WriteAllLines(statusCode + ".txt", urls);
             }
         }
-        catch (Exception ex)
+        catch 
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
         }
     }
 
@@ -289,9 +290,9 @@ class UrlChecker
         {
             response = client.Execute(request);
         }
-        catch (Exception ex)
+        catch 
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
         }
 
         return response;
@@ -306,9 +307,9 @@ class UrlChecker
             file.Remove(url);
             System.IO.File.WriteAllLines(outputFilePath, file.ToArray());
         }
-        catch (Exception ex)
+        catch 
         {
-            Console.WriteLine($"[-] Error: {ex.Message}");
+            Interlocked.Increment(ref errorCount);
         }
     }
 
