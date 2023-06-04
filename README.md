@@ -14,7 +14,7 @@ This tool helps you to **test all your test cases on a url** list and according 
 ```
 Step 1 : Open Command Prompt And Write ( git clone https://github.com/HesamTorkashvand/UrlTester/ )
 Step 2 : Open UrlTester.sln in visual Studio and click on Start
-Step 3 : Go to 
+Step 3 : Go to UrlTester/bin/Debug And Run UrlTester.exe
 ```
 Manual download : [Download](https://github.com/HesamTorkashvand/UrlTester/releases/download/fuzz/Windows-Version.rar)
 
